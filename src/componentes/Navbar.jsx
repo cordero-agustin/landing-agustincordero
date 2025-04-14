@@ -3,7 +3,7 @@ import CartWidget from './CartWidget'
 const Navbar = () => {
     return(
         <nav style={{display:"flex", justifyContent:"space-around", alignItems:"center", padding:'2rem', backgroundColor: "darkred", color: 'whitesmoke', fontWeight:'bold', fontFamily:'Arial'}}>
-            <a className="nav-link" href="" >
+            <a className="nav-link" href="https://www.instagram.com/indunaciones/" target='_blank' >
                 <img src="../logo-nav.png" alt="logo" className='logo-nav'/>
             </a>
             <a className="nav-link" href="" >Camisetas</a>
