@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: darkred;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .nav-link:focus,
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-toggle,
+.navbar-custom .dropdown-item,
+.navbar-custom .dropdown-item:hover {
+  color: beige !important;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: darkred;
+  border: none;
+}
+
+
+  .logo{
+    width:8rem;
+  }

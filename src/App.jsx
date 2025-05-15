@@ -1,17 +1,23 @@
 import './App.css'
-import Button from './componentes/ej/Button'
-import Navbar from './componentes/Navbar'
-import ItemListContainer from './componentes/ItemListContainer'
-  function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from './components/ItemListContainer'
+import NavbarReactBootstrap from './components/NavbarReactBootstrap';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import FetchApi from './components/ejemplos/FetchApi'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-  
-
+function App() {
+ 
   return (
-    <>
-    
-      <Navbar/>
-      <ItemListContainer greeting='Bienvenidos a induSTORE'/>
-    </>
+    <BrowserRouter>
+    <NavbarReactBootstrap/>
+    <Routes>
+      <Route path='/' element={<ItemListContainer greeting='induStore'/>}/>
+      <Route path='/category/:categoryId' element={<ItemListContainer greeting='Categoria: '/>}/>
+      <Route path='/item/:itemId' element={<ItemDetailContainer/>}/>
+      <Route path='/fetch' element={<FetchApi/>}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

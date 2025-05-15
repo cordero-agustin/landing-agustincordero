@@ -1,11 +1,9 @@
 .nav-link{
     text-decoration: none;
-    color: whitesmoke;
+    color:black;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
+  }
 
-.logo-nav{
-    width: 10rem;
-}
+  .logo{
+    width:8rem;
+  }
