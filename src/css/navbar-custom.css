@@ -9,7 +9,8 @@
 .navbar-custom .dropdown-toggle,
 .navbar-custom .dropdown-item,
 .navbar-custom .dropdown-item:hover {
-  color: beige !important;
+  color: whitesmoke !important;
+  font-weight: bold;
 }
 
 .navbar-custom .dropdown-menu {
