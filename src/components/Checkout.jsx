@@ -50,9 +50,9 @@ const {cart, cartTotal, clear}= useContext(CartContext)
         {
             orderId 
             ? <div>
-                <h2>Tu orden se generó con éxito!</h2>
-                <p>Su id de seguimiento es: {orderId}</p>
-                <Link className='btn btn-dark' to='/'>Volver a home!</Link>
+                <h2>¡Felicidades tu compra fue realizada!</h2>
+                <p>Tu ID de seguimiento del pedido es: {orderId}</p>
+                <Link className='btn btn-dark' to='/'>Volver al inicio</Link>
             </div>
             :<div>
         <h1>Completa con tus datos</h1>
